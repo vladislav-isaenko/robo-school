@@ -637,14 +637,16 @@ body {
 }
 
 .percents {
-    background-image: url("../images/%%%%%%%%%%.svg");
-    background-repeat: repeat-x;
-    width: 100%;
-    height: 120.546px;
     position: absolute;
     bottom: -21px;
     left: -10px;     
     z-index: 0;
+    display: flex;
+}
+
+.percents img {
+    width: 100%;
+    height: 120.546px;
 }
 
 .feat {
